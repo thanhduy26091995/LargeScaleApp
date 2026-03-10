@@ -13,3 +13,16 @@
 .externalNativeBuild
 .cxx
 local.properties
+.idea
+/.idea/misc.xml
+
+# Modules
+contracts/build
+core/build
+feature-core/build
+feature-dashboard/build
+feature-inventory/build
+feature-orders/build
+feature-wallet/build
+shared-ui/build
+wire/build
