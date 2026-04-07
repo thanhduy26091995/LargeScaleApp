@@ -40,33 +40,61 @@ data class ApiConfig(
 )
 
 /**
- * Context provided to modules during initialization.
- * Provides access to Wire Core services and shared resources.
+ * Context provided to each module during [AppModule.initialize].
+ *
+ * Acts as the module's gateway to all Wire Core services.
+ * Modules must not hold a reference to this beyond their own lifecycle.
+ *
+ * Typical usage inside a module:
+ * ```
+ * override fun initialize(context: ModuleContext) {
+ *     // Subscribe to events
+ *     context.eventBus.on<UserAuthenticatedEvent> { loadUserData(it.role) }
+ *
+ *     // Register widgets
+ *     context.slotRegistry.register(myWidget)
+ *
+ *     // React to tenant changes
+ *     context.tenantConfig.onEach { config -> applyTheme(config) }
+ * }
+ * ```
  */
 interface ModuleContext {
     /**
      * Current tenant configuration as a reactive state.
-     * Modules can observe this to react to tenant switches.
+     * Emits a new value whenever the tenant switches or its config is updated.
      */
     val tenantConfig: StateFlow<TenantConfig?>
 
     /**
-     * Current user role.
+     * Current authenticated user role.
+     * Emits [Role.GUEST] when no user is authenticated.
      */
     val currentRole: StateFlow<Role>
 
     /**
-     * Publish an event to the EventBus.
+     * Cross-module event bus.
+     * Use [EventBus.publish] to emit events and [EventBus.on] / [EventBus.subscribe] to listen.
+     * Cancel the returned [kotlinx.coroutines.Job] in [AppModule.onDestroy] to avoid leaks.
      */
-    suspend fun publishEvent(event: ModuleEvent)
+    val eventBus: EventBus
 
     /**
-     * Navigate to a route.
+     * Dynamic UI slot registry.
+     * Modules register their widgets here during [AppModule.initialize].
+     * Call [SlotRegistry.clearModule] in [AppModule.onDestroy].
+     */
+    val slotRegistry: SlotRegistry
+
+    /**
+     * Navigate to a route defined by any module.
+     * Prefer publishing a [NavigationRequestedEvent] for cross-module navigation.
      */
     fun navigate(route: String)
 
     /**
-     * Get application context (for resources, etc.).
+     * Returns the Android application [android.content.Context].
+     * Typed as [Any] to keep the contracts module platform-agnostic.
      */
-    fun getApplicationContext(): Any // Platform-agnostic (would be Context on Android)
+    fun getApplicationContext(): Any
 }

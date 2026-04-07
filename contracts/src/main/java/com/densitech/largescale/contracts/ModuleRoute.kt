@@ -16,14 +16,17 @@ data class ModuleRoute(
 /**
  * UI slot/widget provided by a module for dynamic composition.
  *
- * @property slotId Identifier for the slot host (e.g., "home_widgets", "profile_actions")
- * @property widgetId Unique identifier for this widget
- * @property priority Display priority (higher = shown first)
+ * @property slotId     Identifier for the slot host (e.g., [SlotIds.HOME_WIDGETS])
+ * @property widgetId   Unique identifier for this specific widget
+ * @property moduleId   ID of the module that contributes this widget (used by [SlotRegistry.clearModule])
+ * @property priority   Display priority — higher value = rendered first (default 100)
  * @property requiredRole Minimum role required to see this widget
+ * @property content    Composable content rendered inside the slot
  */
 data class UISlot(
     val slotId: String,
     val widgetId: String,
+    val moduleId: String,
     val priority: Int = 100,
     val requiredRole: Role = Role.GUEST,
     val content: @Composable () -> Unit

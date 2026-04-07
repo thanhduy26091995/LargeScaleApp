@@ -33,17 +33,20 @@ android {
 dependencies {
     // Internal dependencies
     implementation(project(":contracts"))
-    
+
     // Kotlin
     implementation(libs.kotlinx.coroutines.android)
-    
+
     // Hilt
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
-    
+
     // AndroidX
     implementation(libs.androidx.core.ktx)
-    
+
+    // Navigation — NavHostController used by AppNavigatorImpl
+    implementation(libs.androidx.navigation.compose)
+
     // Testing
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)

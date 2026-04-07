@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills:*)",
+      "Bash(find /d/Working/AndroidSource/LargeScaleModule/feature-* -name \".gitkeep\")",
+      "Read(//tmp/**)"
+    ]
+  }
+}

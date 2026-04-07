@@ -79,20 +79,20 @@ feature: modular-android-base-architecture
 **Owner**: Senior Developer
 
 #### 2.3 Widget/Slot Contracts
-- [ ] Define `UISlot` interface
-- [ ] Define `SlotRegistry` interface
-- [ ] Create slot ID constants
-- [ ] Define widget composition patterns
+- [x] Define `UISlot` interface (with moduleId, widgetId, slotId, priority, requiredRole)
+- [x] Define `SlotRegistry` interface (register, getSlotsForHost, unregister, clearModule)
+- [x] Create slot ID constants (`SlotIds` object)
+- [x] Define widget composition patterns
 
 **Estimated Effort**: 1.5 hours  
 **Dependencies**: 2.1 Core Contracts  
 **Owner**: Senior Developer
 
 #### 2.4 Event Bus Contracts
-- [ ] Define `EventBus` interface
-- [ ] Create common event types (OrderCreated, UserAuthenticated, etc.)
-- [ ] Define event subscription patterns
-- [ ] Document event naming conventions
+- [x] Define `EventBus` interface (publish, subscribe, on reified extension)
+- [x] Create common event types (OrderCreated, UserAuthenticated, TenantSwitched, TenantConfigUpdated, FeatureFlagChanged, NavigationRequested, UserLoggedOut)
+- [x] Define event subscription patterns
+- [x] Document event naming conventions
 
 **Estimated Effort**: 1.5 hours  
 **Dependencies**: 2.1 Core Contracts  
