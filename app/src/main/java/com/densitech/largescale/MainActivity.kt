@@ -17,7 +17,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.densitech.largescale.contracts.Routes
-import com.densitech.largescale.ui.theme.LargeScaleModuleTheme
+import com.densitech.largescale.shared.ui.theme.AppTheme
 import com.densitech.largescale.wire.AppNavigatorImpl
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
                 navigator.setNavController(navController)
             }
 
-            LargeScaleModuleTheme {
+            AppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     // Phase 6: Replace NavHost content with NavigationAssembler routes
                     NavHost(
