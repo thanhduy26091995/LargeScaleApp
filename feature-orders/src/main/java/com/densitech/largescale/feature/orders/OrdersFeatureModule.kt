@@ -28,9 +28,10 @@ class OrdersFeatureModule : AppModule {
                 moduleId = "orders",
                 priority = 80,
                 requiredRole = Role.CUSTOMER
-            ) { OrdersSummaryWidget() }
+            ) { OrdersSummaryWidget() },
         )
     }
+
 
     override fun provideRoutes() = listOf(
         ModuleRoute(route = Routes.ORDERS, requiredRole = Role.STAFF),

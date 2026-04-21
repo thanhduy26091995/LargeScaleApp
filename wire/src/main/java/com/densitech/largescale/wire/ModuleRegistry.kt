@@ -95,6 +95,7 @@ class ModuleRegistry @Inject constructor() {
         pending.forEach { module ->
             try {
                 module.initialize(context)
+                module.provideWidgets().forEach { slot -> context.slotRegistry.register(slot) }
                 initializedIds.add(module.metadata.id)
                 context.eventBus.publish(ModuleInitializedEvent(moduleId = module.metadata.id))
                 Log.d(TAG, "Initialized '${module.metadata.id}'")

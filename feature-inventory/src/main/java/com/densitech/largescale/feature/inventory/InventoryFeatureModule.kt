@@ -6,7 +6,9 @@ import com.densitech.largescale.contracts.ModuleMetadata
 import com.densitech.largescale.contracts.ModuleRoute
 import com.densitech.largescale.contracts.Role
 import com.densitech.largescale.contracts.Routes
+import com.densitech.largescale.contracts.SlotIds
 import com.densitech.largescale.contracts.UISlot
+import com.densitech.largescale.feature.inventory.ui.InventoryScreen
 
 class InventoryFeatureModule : AppModule {
 
@@ -19,12 +21,19 @@ class InventoryFeatureModule : AppModule {
     )
 
     override fun initialize(context: ModuleContext) {
-        // Phase 7+: register inventory widget to home screen
+        // Widgets are registered via provideWidgets() — no additional setup needed here
     }
 
     override fun provideRoutes() = listOf(
         ModuleRoute(route = Routes.INVENTORY, requiredRole = Role.STAFF)
     )
 
-    override fun provideWidgets(): List<UISlot> = emptyList()
+    override fun provideWidgets(): List<UISlot> = listOf(
+        UISlot(
+            slotId = SlotIds.HOME_WIDGETS,
+            widgetId = "inventory_summary",
+            moduleId = "inventory",
+            priority = 79,
+            requiredRole = Role.CUSTOMER
+        ) { InventoryScreen() })
 }
