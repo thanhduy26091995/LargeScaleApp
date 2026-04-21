@@ -26,6 +26,7 @@ private const val TAG = "ModuleRegistry"
 class ModuleRegistry @Inject constructor() {
 
     private val modules = mutableListOf<AppModule>()
+    private val initializedIds = mutableSetOf<String>()
 
     // ── Registration ──────────────────────────────────────────────────────────
 
@@ -88,11 +89,13 @@ class ModuleRegistry @Inject constructor() {
      */
     fun initializeAll(context: ModuleContext, role: Role, tenantConfig: TenantConfig?) {
         val eligible = resolve(role, tenantConfig)
-        Log.i(TAG, "Initializing ${eligible.size} / ${modules.size} modules for role=$role")
+        val pending = eligible.filter { it.metadata.id !in initializedIds }
+        Log.i(TAG, "Initializing ${pending.size} new / ${eligible.size} eligible / ${modules.size} total modules for role=$role")
 
-        eligible.forEach { module ->
+        pending.forEach { module ->
             try {
                 module.initialize(context)
+                initializedIds.add(module.metadata.id)
                 context.eventBus.publish(ModuleInitializedEvent(moduleId = module.metadata.id))
                 Log.d(TAG, "Initialized '${module.metadata.id}'")
             } catch (e: Exception) {
@@ -114,6 +117,7 @@ class ModuleRegistry @Inject constructor() {
                 Log.e(TAG, "Error destroying '${module.metadata.id}'", e)
             }
         }
+        initializedIds.clear()
         Log.i(TAG, "All modules destroyed")
     }
 }
