@@ -1,0 +1,52 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "contracts",
+          "kind" : "fileSystem",
+          "location" : "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts",
+          "name" : "Contracts"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts"
+        },
+        "subpath" : "contracts"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "sharedui",
+          "kind" : "fileSystem",
+          "location" : "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI",
+          "name" : "SharedUI"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI"
+        },
+        "subpath" : "sharedui"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "wirecore",
+          "kind" : "fileSystem",
+          "location" : "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/WireCore",
+          "name" : "WireCore"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/WireCore"
+        },
+        "subpath" : "wirecore"
+      }
+    ]
+  },
+  "version" : 6
+}

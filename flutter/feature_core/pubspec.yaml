@@ -1,0 +1,20 @@
+name: feature_core
+description: Core feature module — splash screen, login screen, and auth flow.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  contracts:
+    path: ../contracts
+  core:
+    path: ../core
+  shared_ui:
+    path: ../shared_ui
+  go_router: ^14.0.0
+  get_it: ^7.7.0

@@ -1,0 +1,16 @@
+name: core
+description: Always-loaded shared services — Auth, Network, Storage
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  contracts:
+    path: ../contracts
+  shared_preferences: ^2.3.0
+  dio: ^5.7.0

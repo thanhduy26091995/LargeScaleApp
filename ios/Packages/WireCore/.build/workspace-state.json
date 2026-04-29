@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "contracts",
+          "kind" : "fileSystem",
+          "location" : "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts",
+          "name" : "Contracts"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts"
+        },
+        "subpath" : "contracts"
+      }
+    ]
+  },
+  "version" : 6
+}

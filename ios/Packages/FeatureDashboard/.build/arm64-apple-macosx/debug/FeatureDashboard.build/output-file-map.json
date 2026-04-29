@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureDashboard/.build/arm64-apple-macosx/debug/FeatureDashboard.build/master.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureDashboard/Sources/FeatureDashboard/Module/DashboardModule.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureDashboard/.build/arm64-apple-macosx/debug/FeatureDashboard.build/DashboardModule.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureDashboard/.build/arm64-apple-macosx/debug/FeatureDashboard.build/DashboardModule.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureDashboard/.build/arm64-apple-macosx/debug/FeatureDashboard.build/DashboardModule~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureDashboard/.build/arm64-apple-macosx/debug/FeatureDashboard.build/DashboardModule.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureDashboard/Sources/FeatureDashboard/Presentation/DashboardView.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureDashboard/.build/arm64-apple-macosx/debug/FeatureDashboard.build/DashboardView.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureDashboard/.build/arm64-apple-macosx/debug/FeatureDashboard.build/DashboardView.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureDashboard/.build/arm64-apple-macosx/debug/FeatureDashboard.build/DashboardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureDashboard/.build/arm64-apple-macosx/debug/FeatureDashboard.build/DashboardView.swiftdeps"
+  }
+}

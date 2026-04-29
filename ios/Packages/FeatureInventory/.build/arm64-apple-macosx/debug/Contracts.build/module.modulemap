@@ -1,0 +1,4 @@
+module Contracts {
+    header "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/.build/arm64-apple-macosx/debug/Contracts.build/Contracts-Swift.h"
+    requires objc
+}

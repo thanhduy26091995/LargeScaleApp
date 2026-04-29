@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/.build/arm64-apple-macosx/debug/FeatureInventory.build/master.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/Sources/FeatureInventory/Module/InventoryModule.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/.build/arm64-apple-macosx/debug/FeatureInventory.build/InventoryModule.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/.build/arm64-apple-macosx/debug/FeatureInventory.build/InventoryModule.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/.build/arm64-apple-macosx/debug/FeatureInventory.build/InventoryModule~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/.build/arm64-apple-macosx/debug/FeatureInventory.build/InventoryModule.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/Sources/FeatureInventory/Presentation/InventoryView.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/.build/arm64-apple-macosx/debug/FeatureInventory.build/InventoryView.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/.build/arm64-apple-macosx/debug/FeatureInventory.build/InventoryView.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/.build/arm64-apple-macosx/debug/FeatureInventory.build/InventoryView~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/.build/arm64-apple-macosx/debug/FeatureInventory.build/InventoryView.swiftdeps"
+  }
+}

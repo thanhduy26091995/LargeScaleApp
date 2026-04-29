@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/master.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/Sources/Contracts/AppModule.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppModule.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppModule.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppModule~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppModule.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/Sources/Contracts/AppNavigator.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppNavigator.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppNavigator.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppNavigator~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppNavigator.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/Sources/Contracts/AppRoute.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppRoute.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppRoute.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppRoute~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/AppRoute.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/Sources/Contracts/ModuleContext.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleContext.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleContext.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleContext.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/Sources/Contracts/ModuleEvent.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleEvent.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleEvent.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleEvent~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleEvent.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/Sources/Contracts/ModuleMetadata.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleMetadata.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleMetadata.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleMetadata~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleMetadata.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/Sources/Contracts/ModuleRoute.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleRoute.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleRoute.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleRoute~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/ModuleRoute.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/Sources/Contracts/Role.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/Role.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/Role.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/Role~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/Role.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/Sources/Contracts/TenantConfig.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/TenantConfig.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/TenantConfig.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/TenantConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Contracts/.build/arm64-apple-macosx/debug/Contracts.build/TenantConfig.swiftdeps"
+  }
+}

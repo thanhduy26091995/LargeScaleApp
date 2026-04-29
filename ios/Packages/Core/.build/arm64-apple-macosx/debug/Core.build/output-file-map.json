@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/master.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/Sources/Core/Auth/AuthService.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/AuthService.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/AuthService.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/AuthService~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/AuthService.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/Sources/Core/Network/NetworkService.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/NetworkService.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/NetworkService.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/NetworkService~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/NetworkService.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/Sources/Core/Storage/StorageService.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/StorageService.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/StorageService.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/StorageService~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/Core.build/StorageService.swiftdeps"
+  }
+}

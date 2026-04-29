@@ -1,4 +1,22 @@
-# LargeScale — Modular Android Architecture
+# LargeScaleApp — Multi-Platform Modular Architecture
+
+A production-ready **multi-platform monorepo** demonstrating the same **plug-and-play, tenant-configurable, role-aware** module system applied to Android, Flutter, and iOS.
+
+## Platform Folders
+
+| Platform | Folder | Tooling |
+|----------|--------|---------|
+| Android | [android/](android/) | Gradle · Kotlin · Jetpack Compose · Hilt |
+| Flutter | [flutter/](flutter/) | Flutter SDK · Dart · go_router · get_it |
+| iOS | [ios/](ios/) | Xcode · Swift · SwiftUI · SPM · Combine |
+
+Each platform is **independently buildable** and applies the same architectural principles: Wire Core, Module Registry, Event Bus, Slot Registry, Role-Based Module Loading.
+
+See [modular_mobile_architecture_principal_guide.md](modular_mobile_architecture_principal_guide.md) for the platform-agnostic architecture reference.
+
+---
+
+## Android Architecture Overview
 
 A production-ready Android template demonstrating a **plug-and-play, tenant-configurable, role-aware** module system built on Jetpack Compose, Hilt, and Kotlin Coroutines.
 

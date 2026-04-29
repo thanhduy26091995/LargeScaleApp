@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/.build/arm64-apple-macosx/debug/FeatureWallet.build/master.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/Sources/FeatureWallet/Module/WalletModule.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/.build/arm64-apple-macosx/debug/FeatureWallet.build/WalletModule.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/.build/arm64-apple-macosx/debug/FeatureWallet.build/WalletModule.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/.build/arm64-apple-macosx/debug/FeatureWallet.build/WalletModule~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/.build/arm64-apple-macosx/debug/FeatureWallet.build/WalletModule.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/Sources/FeatureWallet/Presentation/WalletView.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/.build/arm64-apple-macosx/debug/FeatureWallet.build/WalletView.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/.build/arm64-apple-macosx/debug/FeatureWallet.build/WalletView.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/.build/arm64-apple-macosx/debug/FeatureWallet.build/WalletView~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/.build/arm64-apple-macosx/debug/FeatureWallet.build/WalletView.swiftdeps"
+  }
+}

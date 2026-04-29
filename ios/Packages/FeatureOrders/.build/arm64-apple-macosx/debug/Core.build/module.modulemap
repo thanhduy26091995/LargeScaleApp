@@ -1,0 +1,4 @@
+module Core {
+    header "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureOrders/.build/arm64-apple-macosx/debug/Core.build/Core-Swift.h"
+    requires objc
+}

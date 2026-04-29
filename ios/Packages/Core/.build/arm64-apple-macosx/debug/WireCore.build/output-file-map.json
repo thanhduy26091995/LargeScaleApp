@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/master.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/WireCore/Sources/WireCore/AppEventBus.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/AppEventBus.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/AppEventBus.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/AppEventBus~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/AppEventBus.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/WireCore/Sources/WireCore/ModuleRegistry.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/ModuleRegistry.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/ModuleRegistry.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/ModuleRegistry~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/ModuleRegistry.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/WireCore/Sources/WireCore/NavigationAssembler.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/NavigationAssembler.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/NavigationAssembler.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/NavigationAssembler~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/NavigationAssembler.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/WireCore/Sources/WireCore/SlotRegistry.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/SlotRegistry.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/SlotRegistry.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/SlotRegistry~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/SlotRegistry.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/WireCore/Sources/WireCore/WireContainer.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/WireContainer.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/WireContainer.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/WireContainer~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/Core/.build/arm64-apple-macosx/debug/WireCore.build/WireContainer.swiftdeps"
+  }
+}

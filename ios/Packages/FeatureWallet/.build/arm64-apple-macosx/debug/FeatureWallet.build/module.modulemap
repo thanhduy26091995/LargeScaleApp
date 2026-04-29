@@ -1,0 +1,4 @@
+module FeatureWallet {
+    header "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureWallet/.build/arm64-apple-macosx/debug/FeatureWallet.build/FeatureWallet-Swift.h"
+    requires objc
+}

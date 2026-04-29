@@ -1,0 +1,37 @@
+name: largescaleapp
+description: LargeScaleApp Flutter — App shell
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  contracts:
+    path: ../contracts
+  wire:
+    path: ../wire
+  core:
+    path: ../core
+  shared_ui:
+    path: ../shared_ui
+  feature_dashboard:
+    path: ../feature_dashboard
+  feature_orders:
+    path: ../feature_orders
+  feature_inventory:
+    path: ../feature_inventory
+  feature_wallet:
+    path: ../feature_wallet
+  feature_core:
+    path: ../feature_core
+  go_router: ^14.0.0
+  get_it: ^7.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0

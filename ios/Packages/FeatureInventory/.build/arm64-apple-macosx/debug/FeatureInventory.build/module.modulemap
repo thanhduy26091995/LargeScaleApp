@@ -1,0 +1,4 @@
+module FeatureInventory {
+    header "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/FeatureInventory/.build/arm64-apple-macosx/debug/FeatureInventory.build/FeatureInventory-Swift.h"
+    requires objc
+}

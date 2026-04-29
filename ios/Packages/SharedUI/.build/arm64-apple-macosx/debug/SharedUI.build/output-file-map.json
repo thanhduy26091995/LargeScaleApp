@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/master.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/Sources/SharedUI/Components/AvatarView.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/AvatarView.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/AvatarView.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/AvatarView~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/AvatarView.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/Sources/SharedUI/Components/ProductCardView.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/ProductCardView.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/ProductCardView.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/ProductCardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/ProductCardView.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/Sources/SharedUI/Components/RatingView.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/RatingView.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/RatingView.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/RatingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/RatingView.swiftdeps"
+  },
+  "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/Sources/SharedUI/Theme/AppTheme.swift": {
+    "dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/AppTheme.d",
+    "object": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/AppTheme.swift.o",
+    "swiftmodule": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/AppTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/AppTheme.swiftdeps"
+  }
+}

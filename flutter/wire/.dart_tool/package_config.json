@@ -1,0 +1,94 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "async",
+      "rootUri": "file:///Users/duyb/.pub-cache/hosted/pub.dev/async-2.13.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "characters",
+      "rootUri": "file:///Users/duyb/.pub-cache/hosted/pub.dev/characters-1.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "collection",
+      "rootUri": "file:///Users/duyb/.pub-cache/hosted/pub.dev/collection-1.19.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "contracts",
+      "rootUri": "../../contracts",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/duyb/Downloads/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "3.8"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/duyb/Downloads/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.8"
+    },
+    {
+      "name": "get_it",
+      "rootUri": "file:///Users/duyb/.pub-cache/hosted/pub.dev/get_it-7.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "go_router",
+      "rootUri": "file:///Users/duyb/.pub-cache/hosted/pub.dev/go_router-14.8.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "logging",
+      "rootUri": "file:///Users/duyb/.pub-cache/hosted/pub.dev/logging-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "material_color_utilities",
+      "rootUri": "file:///Users/duyb/.pub-cache/hosted/pub.dev/material_color_utilities-0.11.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/duyb/.pub-cache/hosted/pub.dev/meta-1.16.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sky_engine",
+      "rootUri": "file:///Users/duyb/Downloads/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "3.8"
+    },
+    {
+      "name": "vector_math",
+      "rootUri": "file:///Users/duyb/.pub-cache/hosted/pub.dev/vector_math-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "wire",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    }
+  ],
+  "generator": "pub",
+  "generatorVersion": "3.9.0",
+  "flutterRoot": "file:///Users/duyb/Downloads/flutter",
+  "flutterVersion": "3.35.2",
+  "pubCache": "file:///Users/duyb/.pub-cache"
+}

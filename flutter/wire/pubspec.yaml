@@ -1,0 +1,16 @@
+name: wire
+description: Wire Core — ModuleRegistry, EventBus, SlotRegistry, WireContainer for LargeScaleApp Flutter
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  contracts:
+    path: ../contracts
+  get_it: ^7.7.0
+  go_router: ^14.0.0

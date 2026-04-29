@@ -1,0 +1,4 @@
+module SharedUI {
+    header "/Users/duyb/Documents/AndroidSource/LargeScaleApp/ios/Packages/SharedUI/.build/arm64-apple-macosx/debug/SharedUI.build/SharedUI-Swift.h"
+    requires objc
+}
